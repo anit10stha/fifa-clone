@@ -1,8 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
 }
 
+/* top navbar starts */
 .navbar{
     font-size: 1rem;
     height: 60px;
@@ -13,6 +15,10 @@
    
 }
 
+#first{
+    padding-left: 0px;
+}
+
 .nav-left img{
     height: 32px;
     width: 32px;
@@ -21,19 +27,60 @@
 }
 
 .nav-mid{
-    padding-left: 2%;
-    font-size: 1.3rem;
-    font-weight: 700;
+    padding-left: 80px;
+    font-size: 1.2rem;
+    font-weight: 500;
     color: rgba(255, 255, 255, 0.808);
 }
 
 .nav-right img{
-    padding-left: 60px;
+    padding-left: 80px;
 }
 
 .logo{
     color: white;
+    padding-left: 40px;
 
 }
+/* top navbar ends */
+
+
+/* downnavbar starts */
+.down-nav{
+    height: 56px;
+    display: flex;
+    background-color: #2756d6;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;   
+}
+
+.down-nav h1{
+    font-size: 1.8rem;
+}
+
+
+button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+button a{
+    padding: 0px 10px;
+}
+
+/* downnavbar ends */
+
+
+
 
 
