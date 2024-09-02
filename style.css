@@ -5,6 +5,11 @@
 }
 
 /* top navbar starts */
+header{
+    position: fixed;
+    width: 100%;
+}
+
 .navbar{
     font-size: 1rem;
     height: 60px;
@@ -12,6 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
    
 }
 
@@ -80,6 +86,13 @@ button a{
 
 /* downnavbar ends */
 
+/* hero section starts*/
+.background img{
+    height: 750px;
+    width: 100%;
+}
+
+/* hero section ends */
 
 
 
